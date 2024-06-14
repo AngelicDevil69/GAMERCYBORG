@@ -15,24 +15,30 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 h1, h2 {
     color: #333;
+}
+
+.introduction, .projects, .mission, .team, .contact-form, .discord {
+    margin-bottom: 2rem;
 }
 
 table {
@@ -46,7 +52,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 8px;
+    padding: 12px;
     text-align: left;
 }
 
